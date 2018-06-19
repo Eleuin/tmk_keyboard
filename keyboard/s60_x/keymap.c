@@ -12,9 +12,9 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KEYMAP(
         TRNS,   F1,   F2,   F3,   F4,   F5,   F6,   F7,   F8,   F9,  F10,  F11,  F12, TRNS, TRNS, \
         TRNS, TRNS,   UP, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, PSCR, PAUS, SLCK, TRNS,       \
-        TRNS, LEFT, DOWN, RGHT, TRNS, TRNS, MUTE, VOLD, VOLU,  INS, HOME, PGUP,       TRNS,       \
-        TRNS,       TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS,  DEL,  END, PGDN,       TRNS, TRNS, \
-        TRNS, TRNS, TRNS,                   TRNS,                   TRNS, TRNS, TRNS, TRNS        ),
+        TRNS, LEFT, DOWN, RGHT, TRNS, VOLD, VOLU, TRNS, TRNS,  INS, HOME, PGUP,       TRNS,       \
+        LSFT,       TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS,  DEL,  END, PGDN,       RSFT, TRNS, \
+        LCTL, LGUI, LALT,                   TRNS,                   RALT, TRNS, RGUI, RCTL        ),
 };
 
 const action_t PROGMEM fn_actions[] = {
